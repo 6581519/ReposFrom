@@ -1,0 +1,14 @@
+D:\WorkProjects\C#\FavorRepos\FavorRepos\bin\Debug\netcoreapp2.1\FavorRepos.deps.json
+D:\WorkProjects\C#\FavorRepos\FavorRepos\bin\Debug\netcoreapp2.1\FavorRepos.runtimeconfig.json
+D:\WorkProjects\C#\FavorRepos\FavorRepos\bin\Debug\netcoreapp2.1\FavorRepos.runtimeconfig.dev.json
+D:\WorkProjects\C#\FavorRepos\FavorRepos\bin\Debug\netcoreapp2.1\FavorRepos.dll
+D:\WorkProjects\C#\FavorRepos\FavorRepos\bin\Debug\netcoreapp2.1\FavorRepos.pdb
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.csprojAssemblyReference.cache
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.csproj.CoreCompileInputs.cache
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.RazorAssemblyInfo.cache
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.RazorAssemblyInfo.cs
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.AssemblyInfoInputs.cache
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.AssemblyInfo.cs
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.RazorTargetAssemblyInfo.cache
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.dll
+D:\WorkProjects\C#\FavorRepos\FavorRepos\obj\Debug\netcoreapp2.1\FavorRepos.pdb

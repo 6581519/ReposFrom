@@ -1,0 +1,37 @@
+USE master
+IF (EXISTS(SELECT * FROM sysdatabases WHERE name ='MyFavorRepos'))    --检查MyFavorRepos是否存在
+  DROP DATABASE MyFavorRepos                 --如果已经存在MyFavorRepos数据库，则删除MyFavorRepos
+GO
+CREATE DATABASE MyFavorRepos                                      --数据库名为MyFavorRepos
+ON PRIMARY            
+(
+ NAME = MyFavorRepos,                                          --主数据文件逻辑名称
+ FILENAME = 'E:\MyFavorRepos.mdf',   --数据文件路径及物理名称
+ SIZE = 5MB,                                                       --初始大小
+ MAXSIZE = UNLIMITED,                                             --最大尺寸
+ FILEGROWTH = 1MB                                         --自动增长的增量
+)
+LOG ON
+( 
+NAME = MyFavorRepos_log,                                         --日志文件逻辑名称
+FILENAME = 'E:\MyFavorRepos_log.ldf', --日志文件路径及物理名称
+SIZE = 2MB,                                                        --初始大小
+MAXSIZE = 4MB,                                                    --最大尺寸
+FILEGROWTH = 10%                                           --自动增长的增量
+)
+————————————————
+CREATE TABLE tbl_Left
+(
+	TNO VARCHAR(10) NOT NULL UNIQUE,--名称号
+	Name VARCHAR(50) NOT NULL,		--名称
+	OfficialWebsite VARCHAR(50) NOT NULL,--官网
+	DocumentLibrary VARCHAR(50) NOT NULL --文档库
+)
+
+CREATE TABLE tbl_Rigth
+(
+	TNO VARCHAR(10) NOT NULL UNIQUE,--收藏号
+	Name VARCHAR(50) NOT NULL,		--名称
+	OfficialWebsite VARCHAR(50) NOT NULL,--官网
+	DocumentLibrary VARCHAR(50) NOT NULL --文档库
+)
